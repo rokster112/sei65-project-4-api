@@ -25,16 +25,16 @@ const PageNavbar = () => {
         <div>
           <Navbar.Toggle className="justify-content-start" aria-controls='basic-navbar-nav'/>
           <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end'>
-            <Nav.Link as={Link} to="/">HOME</Nav.Link>
-            <Nav.Link as={Link} to="/games">ALL Games</Nav.Link>
-            <Nav.Link as={Link} to="/games/create">CREATE a GAME</Nav.Link>
+            <Nav.Link as={Link} to="/">Home</Nav.Link>
+            <Nav.Link as={Link} to="/games">All Games</Nav.Link>
+            <Nav.Link as={Link} to="/games/create">Create a Game</Nav.Link>
             { authUser() 
               ?
-              <Nav.Link><span onClick={handleLogout}>LOGOUT</span></Nav.Link>
+              <Nav.Link><span onClick={handleLogout}>Logout</span></Nav.Link>
               :
               <>
-                <Nav.Link as={Link} to="/login">LOGIN</Nav.Link>  
-                <Nav.Link as={Link} to="/register">REGISTER</Nav.Link>
+                <Nav.Link as={Link} to="/login">Login</Nav.Link>  
+                <Nav.Link as={Link} to="/register">Register</Nav.Link>
               </>
             }
           </Navbar.Collapse>

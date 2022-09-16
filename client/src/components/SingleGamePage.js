@@ -77,7 +77,11 @@ const SingleGamePage = () => {
                 <h4 className='single-game-description'>Year: {singleGame.year}</h4>
                 <h4 className='single-game-description'>Publisher: {singleGame.publisher}</h4>
                 <h4 className='single-game-description'>Developer: {singleGame.developer}</h4>
+                {/* <h4>{singleGame.genres && singleGame.genres.length && singleGame.genres.map((genre) => {
+                  <p key={id}>{genre.name}</p>
+                })}</h4> */}
               </div>
+              {/* <div className='single-game-genres'></div> */}
             </div>
           </>
         
