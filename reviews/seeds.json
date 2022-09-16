@@ -1,0 +1,22 @@
+[
+{
+  "model": "reviews.review",
+  "pk": 5,
+  "fields": {
+    "title": "played a lot",
+    "text": "great game NEW REVIEW",
+    "created_at": "2022-09-12T22:35:31.429Z",
+    "game": 5
+  }
+},
+{
+  "model": "reviews.review",
+  "pk": 6,
+  "fields": {
+    "title": "hardly any updates",
+    "text": "was a good game, but feels like it was abandoned",
+    "created_at": "2022-09-12T22:49:10.508Z",
+    "game": 5
+  }
+}
+]

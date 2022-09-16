@@ -1,0 +1,205 @@
+[
+{
+  "model": "genres.genre",
+  "pk": 1,
+  "fields": {
+    "name": "Action"
+  }
+},
+{
+  "model": "genres.genre",
+  "pk": 2,
+  "fields": {
+    "name": "Arcade"
+  }
+},
+{
+  "model": "genres.genre",
+  "pk": 3,
+  "fields": {
+    "name": "Fighting"
+  }
+},
+{
+  "model": "genres.genre",
+  "pk": 4,
+  "fields": {
+    "name": "FPS"
+  }
+},
+{
+  "model": "genres.genre",
+  "pk": 5,
+  "fields": {
+    "name": "Hack & Slash"
+  }
+},
+{
+  "model": "genres.genre",
+  "pk": 6,
+  "fields": {
+    "name": "TPS"
+  }
+},
+{
+  "model": "genres.genre",
+  "pk": 7,
+  "fields": {
+    "name": "Adventure"
+  }
+},
+{
+  "model": "genres.genre",
+  "pk": 8,
+  "fields": {
+    "name": "Puzzle"
+  }
+},
+{
+  "model": "genres.genre",
+  "pk": 9,
+  "fields": {
+    "name": "Story-Rich"
+  }
+},
+{
+  "model": "genres.genre",
+  "pk": 10,
+  "fields": {
+    "name": "Visual Novel"
+  }
+},
+{
+  "model": "genres.genre",
+  "pk": 11,
+  "fields": {
+    "name": "RPG"
+  }
+},
+{
+  "model": "genres.genre",
+  "pk": 12,
+  "fields": {
+    "name": "JRPG"
+  }
+},
+{
+  "model": "genres.genre",
+  "pk": 13,
+  "fields": {
+    "name": "Strategy"
+  }
+},
+{
+  "model": "genres.genre",
+  "pk": 14,
+  "fields": {
+    "name": "Turn-Based"
+  }
+},
+{
+  "model": "genres.genre",
+  "pk": 15,
+  "fields": {
+    "name": "Simulation"
+  }
+},
+{
+  "model": "genres.genre",
+  "pk": 16,
+  "fields": {
+    "name": "Farming"
+  }
+},
+{
+  "model": "genres.genre",
+  "pk": 17,
+  "fields": {
+    "name": "Sandbox"
+  }
+},
+{
+  "model": "genres.genre",
+  "pk": 18,
+  "fields": {
+    "name": "Space & Flight"
+  }
+},
+{
+  "model": "genres.genre",
+  "pk": 19,
+  "fields": {
+    "name": "Card & Board"
+  }
+},
+{
+  "model": "genres.genre",
+  "pk": 20,
+  "fields": {
+    "name": "City & Settelment"
+  }
+},
+{
+  "model": "genres.genre",
+  "pk": 21,
+  "fields": {
+    "name": "Military"
+  }
+},
+{
+  "model": "genres.genre",
+  "pk": 22,
+  "fields": {
+    "name": "RTS"
+  }
+},
+{
+  "model": "genres.genre",
+  "pk": 23,
+  "fields": {
+    "name": "Tower Defense"
+  }
+},
+{
+  "model": "genres.genre",
+  "pk": 24,
+  "fields": {
+    "name": "Sports"
+  }
+},
+{
+  "model": "genres.genre",
+  "pk": 25,
+  "fields": {
+    "name": "Racing"
+  }
+},
+{
+  "model": "genres.genre",
+  "pk": 26,
+  "fields": {
+    "name": "Fishing & Hunting"
+  }
+},
+{
+  "model": "genres.genre",
+  "pk": 27,
+  "fields": {
+    "name": "MMO"
+  }
+},
+{
+  "model": "genres.genre",
+  "pk": 28,
+  "fields": {
+    "name": "Singleplayer"
+  }
+},
+{
+  "model": "genres.genre",
+  "pk": 29,
+  "fields": {
+    "name": "Multiplayer"
+  }
+}
+]

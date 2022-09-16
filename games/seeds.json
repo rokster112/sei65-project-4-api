@@ -1,0 +1,18 @@
+[
+{
+  "model": "games.game",
+  "pk": 5,
+  "fields": {
+    "title": "Valheim",
+    "publisher": "NoClue",
+    "developer": "None",
+    "year": 2021,
+    "image_url": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFRgSFRYYGBgYGBgYGBgYGBgYGBgYGBgZGRgYG",
+    "genres": [
+      1,
+      2,
+      3
+    ]
+  }
+}
+]

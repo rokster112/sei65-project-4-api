@@ -1,0 +1,35 @@
+
+.footer-main {
+  background-color: rgb(213, 54, 54);
+  min-width: 100vw;
+  // position: absolute;
+  // bottom: 0;
+  // margin-bottom: -150px;
+  height: 100px;
+}
+
+.footer-header {
+  text-align: center;
+  min-width: 100vw;
+}
+
+.Rokas {
+  padding: 5px 20px 20px 20px;
+  .a-rokas {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.Logo {
+  height:50px;
+  width:50px;
+  margin-right: 40px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+}
+
+
