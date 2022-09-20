@@ -9,7 +9,7 @@ from datetime import datetime, timedelta
 from jwt_auth.serializers.common import UserSerializer
 from django.conf import settings
 
-# Create your views here.
+# Create your views here
 class RegisterView(APIView):
 
   def post (self, request):
