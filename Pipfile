@@ -11,6 +11,7 @@ autopep8 = "*"
 psycopg2 = "*"
 djangorestframework = "*"
 pyjwt = "*"
+django-on-heroku = "*"
 
 [dev-packages]
 
