@@ -1,17 +1,352 @@
 [
 {
   "model": "games.game",
-  "pk": 5,
+  "pk": 20,
   "fields": {
-    "title": "Valheim",
-    "publisher": "NoClue",
-    "developer": "None",
-    "year": 2021,
-    "image_url": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFRgSFRYYGBgYGBgYGBgYGBgYGBgYGBgZGRgYG",
+    "title": "PUBG: BATTLEGROUNDS",
+    "publisher": "KRAFTON, Inc",
+    "developer": "KRAFTON, Inc",
+    "year": 2017,
+    "image_url": "https://i.imgur.com/cNpOCFQ.jpg",
+    "owner": 1,
+    "genres": [
+      13,
+      4,
+      29
+    ]
+  }
+},
+{
+  "model": "games.game",
+  "pk": 21,
+  "fields": {
+    "title": "Fallout 4",
+    "publisher": "Bethesda Softworks",
+    "developer": "Bethesda Game Studios",
+    "year": 2015,
+    "image_url": "https://i.imgur.com/61Ox3aq.jpg",
+    "owner": 1,
     "genres": [
       1,
-      2,
-      3
+      28,
+      11
+    ]
+  }
+},
+{
+  "model": "games.game",
+  "pk": 22,
+  "fields": {
+    "title": "Counter-Strike: Global Offensive",
+    "publisher": "Valve",
+    "developer": "Valve, Hidden Path Entertainment",
+    "year": 2012,
+    "image_url": "https://i.imgur.com/kiBg4Tu.jpg",
+    "owner": 1,
+    "genres": [
+      1,
+      4,
+      29
+    ]
+  }
+},
+{
+  "model": "games.game",
+  "pk": 23,
+  "fields": {
+    "title": "DARK SOULS™ III",
+    "publisher": "FromSoftware, Inc., Bandai Namco Entertainment",
+    "developer": "FromSoftware, Inc.",
+    "year": 2016,
+    "image_url": "https://i.imgur.com/sK1Pg7i.jpg",
+    "owner": 1,
+    "genres": [
+      1,
+      5,
+      11,
+      28,
+      29
+    ]
+  }
+},
+{
+  "model": "games.game",
+  "pk": 24,
+  "fields": {
+    "title": "Need for Speed™ Payback",
+    "publisher": "Electronic Arts",
+    "developer": "Ghost Games",
+    "year": 2017,
+    "image_url": "https://i.imgur.com/ZZM9Rpf.png",
+    "owner": 1,
+    "genres": [
+      25
+    ]
+  }
+},
+{
+  "model": "games.game",
+  "pk": 25,
+  "fields": {
+    "title": "Total War™: ROME II",
+    "publisher": "SEGA",
+    "developer": "CREATIVE ASSEMBLY",
+    "year": 2013,
+    "image_url": "https://i.imgur.com/3gfWN6F.jpg",
+    "owner": 1,
+    "genres": [
+      13,
+      28,
+      29
+    ]
+  }
+},
+{
+  "model": "games.game",
+  "pk": 26,
+  "fields": {
+    "title": "Rust",
+    "publisher": "Facepunch Studios",
+    "developer": "Facepunch Studios",
+    "year": 2018,
+    "image_url": "https://i.imgur.com/uPAqmoe.jpg",
+    "owner": 1,
+    "genres": [
+      1,
+      4,
+      28,
+      29
+    ]
+  }
+},
+{
+  "model": "games.game",
+  "pk": 27,
+  "fields": {
+    "title": "Valheim",
+    "publisher": "Coffee Stain Publishing",
+    "developer": "Iron Gate AB",
+    "year": 2021,
+    "image_url": "https://i.imgur.com/r7wkeEq.jpg",
+    "owner": 1,
+    "genres": [
+      17,
+      29,
+      1,
+      28,
+      7
+    ]
+  }
+},
+{
+  "model": "games.game",
+  "pk": 28,
+  "fields": {
+    "title": "FINAL FANTASY XIV Online",
+    "publisher": "Square Enix",
+    "developer": "Square Enix",
+    "year": 2014,
+    "image_url": "https://i.imgur.com/6qwK9lP.jpg",
+    "owner": 1,
+    "genres": [
+      11,
+      27,
+      12
+    ]
+  }
+},
+{
+  "model": "games.game",
+  "pk": 29,
+  "fields": {
+    "title": "Black Desert",
+    "publisher": "Pearl Abyss",
+    "developer": "Pearl Abyss",
+    "year": 2017,
+    "image_url": "https://i.imgur.com/SYQ0BVV.jpg",
+    "owner": 1,
+    "genres": [
+      1,
+      11,
+      13,
+      27,
+      29
+    ]
+  }
+},
+{
+  "model": "games.game",
+  "pk": 30,
+  "fields": {
+    "title": "Library Of Ruina",
+    "publisher": "ProjectMoon",
+    "developer": "ProjectMoon",
+    "year": 2021,
+    "image_url": "https://i.imgur.com/4Gua7Rv.jpg",
+    "owner": 1,
+    "genres": [
+      9,
+      10,
+      13
+    ]
+  }
+},
+{
+  "model": "games.game",
+  "pk": 31,
+  "fields": {
+    "title": "Devil May Cry 5",
+    "publisher": "CAPCOM Co., Ltd.",
+    "developer": "CAPCOM Co., Ltd.",
+    "year": 2019,
+    "image_url": "https://i.imgur.com/VAMjL4s.jpg",
+    "owner": 1,
+    "genres": [
+      1,
+      28,
+      5
+    ]
+  }
+},
+{
+  "model": "games.game",
+  "pk": 32,
+  "fields": {
+    "title": "God of War",
+    "publisher": "PlayStation PC LLC",
+    "developer": "Santa Monica Studio",
+    "year": 2022,
+    "image_url": "https://i.imgur.com/zKZ2elW.jpg",
+    "owner": 1,
+    "genres": [
+      1,
+      11,
+      28,
+      7
+    ]
+  }
+},
+{
+  "model": "games.game",
+  "pk": 33,
+  "fields": {
+    "title": "NieR Replicant™",
+    "publisher": "Square Enix",
+    "developer": "Square Enix, Toylogic Inc.",
+    "year": 2021,
+    "image_url": "https://i.imgur.com/TY9n7Fy.jpg",
+    "owner": 1,
+    "genres": [
+      1,
+      7,
+      9,
+      12,
+      28
+    ]
+  }
+},
+{
+  "model": "games.game",
+  "pk": 34,
+  "fields": {
+    "title": "Farming Simulator 22",
+    "publisher": "Giants Software",
+    "developer": "Giants Software",
+    "year": 2021,
+    "image_url": "https://i.imgur.com/yKoxkyP.jpg",
+    "owner": 1,
+    "genres": [
+      16,
+      29,
+      15
+    ]
+  }
+},
+{
+  "model": "games.game",
+  "pk": 35,
+  "fields": {
+    "title": "Garden Simulator",
+    "publisher": "SunDust",
+    "developer": "PRODUKTIVKELLER Studios",
+    "year": 2022,
+    "image_url": "https://i.imgur.com/TSBFhrw.jpg",
+    "owner": 1,
+    "genres": [
+      16,
+      15
+    ]
+  }
+},
+{
+  "model": "games.game",
+  "pk": 36,
+  "fields": {
+    "title": "ARK: Survival Evolved",
+    "publisher": "Studio Wildcard",
+    "developer": "Studio Wildcard",
+    "year": 2017,
+    "image_url": "https://i.imgur.com/l2aWhlH.jpg",
+    "owner": 1,
+    "genres": [
+      1,
+      17,
+      7
+    ]
+  }
+},
+{
+  "model": "games.game",
+  "pk": 37,
+  "fields": {
+    "title": "Ancestors",
+    "publisher": "Private Division",
+    "developer": "Panache Digital Games",
+    "year": 2020,
+    "image_url": "https://i.imgur.com/kARtP7C.jpg",
+    "owner": 1,
+    "genres": [
+      1,
+      7,
+      11,
+      15,
+      28
+    ]
+  }
+},
+{
+  "model": "games.game",
+  "pk": 38,
+  "fields": {
+    "title": "FIFA 22",
+    "publisher": "Electronic Arts",
+    "developer": "EA Canada & EA Romania",
+    "year": 2021,
+    "image_url": "https://i.imgur.com/sRme2Pl.jpg",
+    "owner": 1,
+    "genres": [
+      24,
+      28,
+      29,
+      15
+    ]
+  }
+},
+{
+  "model": "games.game",
+  "pk": 39,
+  "fields": {
+    "title": "NBA 2K23",
+    "publisher": "2K",
+    "developer": "Visual Concepts",
+    "year": 2022,
+    "image_url": "https://i.imgur.com/yfEuV1t.jpg",
+    "owner": 1,
+    "genres": [
+      24,
+      28,
+      29,
+      15
     ]
   }
 }
