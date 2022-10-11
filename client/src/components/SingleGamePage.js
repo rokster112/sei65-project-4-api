@@ -92,7 +92,7 @@ const SingleGamePage = () => {
           <button className='single-game-buttons' onClick={() => {
             deleteGame(id)
           }}>Delete</button>
-          <Link to={`/games/update/${id}/`}><button className='single-game-buttons'>EDIT</button></Link>
+          <Link to={`/api/games/update/${id}/`}><button className='single-game-buttons'>EDIT</button></Link>
         </div>
       </div> 
     </div>

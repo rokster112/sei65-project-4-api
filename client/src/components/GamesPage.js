@@ -36,7 +36,7 @@ const GamesPage = () => {
               <div className='games-page-game-wrapper' key={id}>
                 <div className='games-page-game-container'>
                   <div className='games-page-game-inside'>
-                    <Link className='games-page-link' to={`/games/${id}/`}>
+                    <Link className='games-page-link' to={`/api/games/${id}/`}>
                       <h5 className='games-page-title'>{title}</h5>
                       <img className="games-image" style={{ width: 250, height: 150 }} src={image_url}></img>
                       <h5 className='games-page-year'>Year: {year}</h5>
